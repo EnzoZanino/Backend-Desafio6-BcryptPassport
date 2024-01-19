@@ -76,7 +76,7 @@ app.use(
 		store: MongoStore.create({
 			mongoUrl: MONGO_URL,
 			//mongoOptions --> opciones de confi para el save de las sessions
-			mongoOptions: { useNewUrlParser: true, useUnifiedTopology: true },
+			/* mongoOptions: { useNewUrlParser: true, useUnifiedTopology: true }, */
 			ttl: 10 * 60,
 		}),
 
